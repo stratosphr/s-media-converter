@@ -12,7 +12,10 @@
     export default {
 
         mounted(): void {
-            axios.get('/').then(response => {
+            axios.post('/', {
+                p1: 'p1v',
+                p2: 'p2v'
+            }).then(response => {
                 console.log(response)
             })
         }
