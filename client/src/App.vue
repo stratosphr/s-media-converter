@@ -1,12 +1,9 @@
 <template>
-    <div id="app">
-        <div id="nav">
-            <router-link to="/">Home</router-link>
-            |
-            <router-link to="/about">About</router-link>
-        </div>
-        <router-view />
-    </div>
+    <v-app>
+        <v-content>
+            Hello from Vuetify!
+        </v-content>
+    </v-app>
 </template>
 
 <style lang="scss">
